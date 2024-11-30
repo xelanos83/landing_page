@@ -1,0 +1,158 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:400,100,100italic,300,300italic,400italic,500,500italic,700,700italic,900italic,900);
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+header {
+  background-color: #1f2937;
+  padding: 20px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logo {
+  font-size: 24px;
+  color: #f9faf8;
+}
+
+header ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  gap: 15px;
+}
+
+header li {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+
+.signup {
+  background-color: #1f2937;
+  padding: 50px;
+  height: 300px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.signup .left {
+  max-width: 450px;
+}
+
+.signup h1 {
+  font-size: 48px;
+  color: #f9faf8;
+  font-weight: 900;
+  margin: 0;
+}
+
+.signup button {
+  color: #e5e7eb;
+  font-weight: bold;
+  background-color: #3882f6;
+  padding: 7px 25px;
+  border-radius: 10px;
+}
+
+.signup p {
+  font-size: 18px;
+  color: #e5e7eb;
+}
+.placeholder {
+  color: #e5e7eb;
+  background-color: rgb(128, 133, 139);
+  width: 450px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info-block h2 {
+  text-align: center;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.blocks {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.block {
+  border: #3882f6 3px solid;
+  height: 150px;
+  width: 150px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 150px;
+  text-align: center;
+}
+
+.quote-block {
+  background-color: #e5e7eb;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 100px;
+}
+
+.quote-block p {
+  font-size: 36px;
+  font-weight: lighter;
+  font-style: italic;
+  max-width: 50%;
+}
+
+.action-block {
+  color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 100px;
+  background-color: #3882f6;
+  height: 150px;
+  margin-top: 50px;
+  margin-left: 350px;
+  margin-right: 350px;
+
+
+  border-radius: 10px;
+}
+
+.action-block strong {
+  font-size: 24px;
+}
+
+.action-block button {
+  color: #e5e7eb;
+  font-weight: bold;
+  background-color: #3882f6;
+  padding: 7px 25px;
+  border-radius: 10px;
+  border: #e5e7eb 2px solid;
+}
+
+footer {
+  background-color: #1f2937;
+  color: white;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 50px;
+}
